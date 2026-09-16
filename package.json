@@ -1,0 +1,16 @@
+{
+  "name": "tasksphere-mern-3d-todo",
+  "version": "1.0.0",
+  "description": "Production Full-Stack MERN 3D Todo SaaS Application",
+  "scripts": {
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": ["mern", "react", "express", "mongodb", "threejs", "tailwindcss", "jwt", "framer-motion"],
+  "author": "TaskSphere",
+  "license": "MIT"
+}
